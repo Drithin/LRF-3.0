@@ -1,0 +1,403 @@
+/*=========================================*/
+/* COLORS USED
+Button Hover/Border: #27ae60,
+Header Nav Hover, Active; #1efa59,
+Color Tint on Hero Image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+
+
+*/
+/*=========================================*/
+
+
+/*=========================================*/
+/* BASIC SETUP*/
+/*=========================================*/
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+
+
+/*=========================================*/
+/* HEADER*/
+/*=========================================*/
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/resources/css/img/hero-1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.hero-content{
+    position: absolute;
+    max-width: 1140px;
+    top: 31%;
+    left: 50%;    
+}
+
+.hero-content h1{
+    color: #fff;
+    font-size: 250%;
+    font-weight: 300;
+}
+
+/*=========================================*/
+/* SOCIAL  NAV  */
+/*=========================================*/
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.social-nav {
+    position: fixed;
+    top: 50%;
+    left: 0%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .social-nav a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 25px;
+  }
+
+ 
+  
+  /* Style the social media icons with color, if you want */
+  .social-nav a:hover {
+    background-color: #27ae60;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white  !important;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white !important;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white !important;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white !important;
+  }
+
+/*=========================================*/
+/* BUTTONS*/
+/*=========================================*/
+.hero-cta{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 200px;
+    transition: background-color 0.5s;
+}
+
+.hero-cta:hover{
+    background-color: #27ae60;
+    color: #fff;
+    border-color: #27ae60;
+}
+
+.main-nav li a{
+    color: #fff !important; 
+    font-size: 90%;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 75%;
+    margin-left: 10px;  
+}
+
+.main-nav li a:hover, .main-nav li a:active{
+    border-bottom: 1px solid #1efa59;
+   
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-menu:hover {
+    display: block;
+    border-bottom: 1px solid #1efa59;
+  }
+
+  .dropdown-item{
+      background-color: transparent !important;
+      
+  }
+
+
+/*=========================================*/
+/* Home Page Activities */
+/*=========================================*/
+.activities-header{
+  text-align: center;
+  margin-top: 40px;
+}
+.activities-sec ion-icon{
+  font-size: 150%;
+  text-align: center;
+  color: #27ae60 !important;
+}
+
+.card-deck .container .row h2{
+  margin-top: 40px;
+  float:left;
+}
+
+.card-deck p{
+  text-align: justify;
+}
+
+.btn{
+  border-radius: 200px;
+  transition: background-color 0.5s;
+}
+
+.btn-outline-dark:hover{
+  background-color: #27ae60;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+/*=========================================*/
+/* Home Page About Us */
+/*=========================================*/
+
+
+.home-aboutus{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('/resources/css/img/index-about-us.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+
+  margin-top: 40px;
+  
+}
+
+.home-aboutus-header h2{
+
+  text-align: center;
+  margin-top: 40px;
+  color: #fff;
+}
+
+.home-aboutus img{
+  width: 100%;
+  height: 100%;
+}
+
+.home-aboutus p{
+  color: #fff;
+  text-align: justify;
+  box-shadow: 1px 2px 4px rgba(255, 255, 255, .5);
+
+  
+}
+
+.home-aboutus-btn{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.home-aboutus-btn .btn{
+  border-radius: 200px;
+  transition: background-color 0.5s;
+  color: #fff;
+  border: 1px solid #fff;
+  margin-bottom: 20px;
+}
+
+.home-aboutus-btn .btn:hover{
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  
+}
+/*=========================================*/
+/* Home Page Upcoming Event */
+/*=========================================*/
+
+
+.home-upcoming{
+  background-color: #fff;
+  height: 100%;
+
+  margin-top: 40px;
+  
+}
+
+.home-upcoming-header h2{
+
+  text-align: center;
+  margin-top: 40px;
+  color: #000;
+}
+
+.home-upcoming img{
+  width: 100%;
+  height: 100%;
+}
+
+.home-upcoming p{
+  color: #000;
+  text-align: justify;
+  box-shadow: 1px 2px 4px rgba(255, 255, 255, .5);
+
+  
+}
+
+.home-upcoming-btn{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.home-upcoming-btn .btn{
+  border-radius: 200px;
+  transition: background-color 0.5s;
+  color: #000;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+}
+
+.home-upcoming-btn .btn:hover{
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  
+}
+
+/*=========================================*/
+/* Home Page Previous Event */
+/*=========================================*/
+.home-previous{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('/resources/css/img/previous-events.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+
+  color: #fff;
+}
+.home-previous h2{
+  text-align: center;
+  margin-top: 160px;
+}
+
+.home-previous img{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.home-previous .btn{
+  color: #fff;
+  border: 1px solid #fff;
+  margin-bottom: 80px;
+}
+
+.home-previous .btn:hover{
+  border: none;
+}
+
+.modal button:hover{
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+}
+.modal-header h5{
+  color: #000 !important;
+}
+
+.modal-body p{
+  color: #000 !important;
+}
+
+/*=========================================*/
+/* Footer */
+/*=========================================*/
+
+/* .footer-copyright{
+  
+} */
+/*=========================================*/
+/* Media Screens*/
+/*=========================================*/
+
+/* Extra Small devices (landscape phones, 300px and up) */
+@media (min-width: 300px) {  
+
+  /* .home-aboutus img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .home-aboutus p{
+    color: #fff;
+    text-align: justify;
+    box-shadow: 1px 2px 4px rgba(255, 255, 255, .5);
+    font-size: 65%;
+    
+  } */
+  
+   
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+
+  
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+
+  
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+  
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+ 
+ 
