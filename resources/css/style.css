@@ -28,7 +28,7 @@ Color Tint on Hero Image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))
 /*=========================================*/
 /* HEADER*/
 /*=========================================*/
-header{
+.home{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/resources/css/img/hero-1.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,6 +50,174 @@ header{
     font-weight: 300;
 }
 
+/*=========================================*/
+/* ABOUT US PAGE*/
+/*=========================================*/
+.about-us-header{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/resources/css/img/hero-1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 25vh;
+}
+
+.about-us-heading h1{
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 200%;
+}
+
+.about-us-content{
+  text-align: justify;
+  margin-top: 40px;
+}
+
+.obj-steps div{
+  color: #fff;
+  border: 1px solid #27ae60;
+  background-color: #27ae60;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  padding: 5px;
+  float:left;
+  font-size: 120%;
+}
+
+/*=========================================*/
+/* MANAGING TRUSTEES PAGE*/
+/*=========================================*/
+.managing-trustees-header{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/resources/css/img/hero-1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 25vh;
+}
+
+.managing-trustees-heading h1{
+
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 200%;
+}
+
+.managing-trustees-content img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  float: left;
+}
+
+.managing-trustees-content .mt-list{
+  margin-top:80px;
+  
+}
+
+.managing-trustees-content p{
+  text-align: justify;
+}
+
+/*=========================================*/
+/* AWARDS PAGE*/
+/*=========================================*/
+.awards-header{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/resources/css/img/hero-1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 25vh;
+}
+
+.awards-heading h1{
+
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 200%;
+}
+
+.awards-content .awards-list{
+  margin-top:40px; 
+}
+
+.awards-content p{
+  text-align: justify;
+}
+/*=========================================*/
+/* FIN AID PAGE*/
+/*=========================================*/
+.fin-aid-header{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/resources/css/img/hero-1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 25vh;
+}
+
+.fin-aid-heading h1{
+
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 200%;
+}
+
+.fin-aid-content{
+  margin-top:40px; 
+}
+
+.fin-aid-content p{
+  text-align: justify;
+}
+
+.fin-aid-content img{
+  width: 100%;
+}
+/*=========================================*/
+/* PUBLISHING PAGE*/
+/*=========================================*/
+.publish-header{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/resources/css/img/hero-1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 25vh;
+}
+
+.publish-heading h1{
+
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 200%;
+}
+
+.publish-content{
+  margin-top:40px; 
+}
+
+.publish-content p{
+  text-align: justify;
+}
+
+.publish-content img{
+  width: 100%;
+}
 /*=========================================*/
 /* SOCIAL  NAV  */
 /*=========================================*/
@@ -148,10 +316,24 @@ header{
     padding: 12px 16px;
     z-index: 1;
   }
+
+  /* .dropdown-menu a{
+    color: #fff !important; 
+    font-size: 90%;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 75%;
+    margin-left: 10px;  
+  } */
   
   .dropdown:hover .dropdown-menu:hover {
     display: block;
     border-bottom: 1px solid #1efa59;
+    color: #fff !important; 
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300 !important;
+    
   }
 
   .dropdown-item{
@@ -259,7 +441,7 @@ header{
   height: 100%;
 
   margin-top: 40px;
-  
+  margin-bottom: 60px;
 }
 
 .home-upcoming-header h2{
@@ -292,7 +474,7 @@ header{
   transition: background-color 0.5s;
   color: #000;
   border: 1px solid #000;
-  margin-bottom: 20px;
+  
 }
 
 .home-upcoming-btn .btn:hover{
@@ -352,9 +534,10 @@ header{
 /* Footer */
 /*=========================================*/
 
-/* .footer-copyright{
-  
-} */
+.page-footer{
+  border: 1px solid black;
+  margin-top: 40px;
+}
 /*=========================================*/
 /* Media Screens*/
 /*=========================================*/
@@ -374,6 +557,10 @@ header{
     font-size: 65%;
     
   } */
+
+  .managing-trustees-content {
+    padding: 10px;
+  }
   
    
 }
