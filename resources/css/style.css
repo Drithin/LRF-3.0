@@ -218,6 +218,167 @@ Color Tint on Hero Image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))
 .publish-content img{
   width: 100%;
 }
+
+/*=========================================*/
+/* MEDIA PAGE*/
+/*=========================================*/
+.text-center .btn{
+  border-radius: 200px;
+  transition: background-color 0.5s;
+  margin-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+
+.text-center .btn-outline-dark:hover{
+
+  background-color: #27ae60;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.text-center .active{
+  background-color: #27ae60 !important;
+  color: #fff;
+  border: 1px solid #27ae60 !important;
+}
+
+.boxImg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.gallery-title
+{
+  font-size: 36px;
+  color: #34d15e;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 70px;
+}
+.gallery-title:after {
+  content: "";
+  position: absolute;
+  width: 7.5%;
+  left: 46.5%;
+  height: 45px;
+  border-bottom: 1px solid #27ae60;
+}
+.filter-button
+{
+  font-size: 18px;
+  border: 1px solid #27ae60;
+  border-radius: 5px;
+  text-align: center;
+  color: #34d15e;
+  margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+  font-size: 18px;
+  border: 1px solid #27ae60;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #27ae60;
+
+}
+.filter-button .active
+{
+  background-color: #27ae60;
+  color: white;
+}
+.port-image
+{
+  width: 100%;
+}
+
+.gallery_product
+{
+  margin-bottom: 30px;
+-webkit-animation-duration: 1s;
+          animation-duration: 1s;
+          -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.block{
+  opacity: 0;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+
+/*=========================================*/
+/* CONTACT PAGE*/
+/*=========================================*/
+.contact-header{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/resources/css/img/hero-1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 25vh;
+}
+
+.contact-heading h1{
+
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 200%;
+}
+
+.contact-content{
+  margin-top:40px; 
+  margin-bottom: 40px;
+}
+
+.contact-content ul li{
+  list-style: none;
+}
+
+.contact-content ion-icon{
+  font-size: 150%;
+  text-align: center;
+  color: #27ae60 !important;
+}
+
+.ngo-support{
+  margin-top: 40px;
+  text-align: justify;
+}
+
+.btn{
+  border-radius: 200px;
+  transition: background-color 0.5s;
+}
+
+.btn-outline-dark:hover{
+  background-color: #27ae60;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.publish-content img{
+  width: 100%;
+}
 /*=========================================*/
 /* SOCIAL  NAV  */
 /*=========================================*/
@@ -537,6 +698,33 @@ Color Tint on Hero Image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))
 .page-footer{
   border: 1px solid black;
   margin-top: 40px;
+  color: #fff;
+
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('/resources/css/img/footer-bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+  height: 100%;
+
+}
+
+.page-footer ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.page-footer ul li a:hover{
+ border-bottom: 1px solid #27ae60;
+}
+
+.footer-copyright a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-copyright a:hover{
+  border-bottom: 1px solid #27ae60;
 }
 /*=========================================*/
 /* Media Screens*/
