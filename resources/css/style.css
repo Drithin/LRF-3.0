@@ -692,6 +692,57 @@ Color Tint on Hero Image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))
 }
 
 /*=========================================*/
+/* Home Page Testimonials */
+/*=========================================*/
+.home-testimonials-header{
+  text-align: center;
+  margin-top: 40px;
+}
+.carousel{
+  margin-top: 40px;
+}
+
+.carousel-item img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  float: center;
+  margin-bottom: 30px;
+}
+
+.carousel-item h6{
+  text-align: center;
+}
+
+.carousel-item p{
+  text-align: justify;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  
+  color: white !important;
+  background-size: 100%, 100%;
+ 
+  /* border-radius: 50%;
+  border: 1px solid black; */
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #27ae60;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #27ae60;
+}
+/*=========================================*/
 /* Footer */
 /*=========================================*/
 
@@ -746,6 +797,10 @@ Color Tint on Hero Image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))
     
   } */
 
+  .carousel-item p{
+    font-size: 75%;
+  }
+
   .managing-trustees-content {
     padding: 10px;
   }
@@ -755,18 +810,26 @@ Color Tint on Hero Image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  
 
-  
+  .carousel-item p{
+    font-size: 90%;
+  }
 }
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
 
+  .carousel-item p{
+    font-size: 100%;
+  }
   
 }
  
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 
+  /* .carousel-item p{
+    font-size: %;
+  } */
   
 }
  
